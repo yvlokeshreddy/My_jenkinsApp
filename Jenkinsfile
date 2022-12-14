@@ -1,5 +1,5 @@
 node{
-   stage{'SCM Checkout'){
+   stage('SCM Checkout'){
    https://github.com/yvlokeshreddy/My_jenkinsApp'
 }
    stage('Compile_package'){
