@@ -9,7 +9,7 @@ pipeline{
                   git branch: 'main', credentialsId: '75e9dae0-776d-463f-a45a-1353dc3fc0a4', url: 'https://github.com/yvlokeshreddy/My_jenkinsApp'  
             }
           }
-          stage("Maven build){
+          stage("Maven build"){
           steps{
           sh "mvn clean package"
          }
